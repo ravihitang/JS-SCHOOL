@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Black Jack</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="icon" type="image/x-icon" href="./favicon_io/favicon-32x32.png">
+    </head>
+    <body>
+        <div class="container">
+            <div class="heading">
+                <h1>BLACK JACK</h1>
+                <hr>
+            </div>
+            <div class="dealer">
+                <h2>Dealer</h2>
+                <img src="./download.jfif" alt="dealer" class="imgs">
+                <div id="deal">DO YOU WANT NEW CARD ??</div>
+            </div>
+            <hr>
+            <div class="player">
+                <h2>Player</h2>
+                <p>My Cards</p>
+                <p id="pCards"> 0</p>
+                <p id="sum">0</p>
+                <img src="./player.jpg" alt="player" class="imgs play">
+                <button onclick="newGame()" id="newGame">New Game</button>
+                <button onclick="newCard()" id="newCards">New Card</button>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+</html>
